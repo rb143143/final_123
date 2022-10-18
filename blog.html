@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- FontAwsome Icon -->
+    <script src="https://kit.fontawesome.com/574aa26d39.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="Pages/blog/blog.css">
+    <script src="Pages/blog/blog.js"></script>
+    <link rel="stylesheet" href="Pages/service/service-2.css">
+    <link rel="stylesheet" href="Pages/service/service-4.css">
+    <link rel="stylesheet" href="Pages/service/service-8.css">
+    <link rel="stylesheet" href="Pages/contact/contact.css">
+    <link rel="stylesheet" href="Pages/blog/blog.css">
+    <link rel="stylesheet" href="Pages/towing/tow.css">
+    <link rel="stylesheet" href="Pages/buy-car/buycar.css">
+    <link rel="stylesheet" href="Pages/sell-car/sellcar.css">
+    <link rel="stylesheet" href="Pages/community/community.css">
+    
+
+ 
+  </head>
+  <body>
+    
+    <!-- UpperNav Strat -->
+    <div class="container-fluid bg-light p-0">
+      <div class="row gx-0 d-none d-lg-flex">
+          <div class="col-lg-7 px-5 text-start">
+              <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                  <small class="fa fa-map-marker-alt text-danger me-2"></small>
+                  <small>123 Street, Kolkata, W.B</small>
+              </div>
+              <div class="h-100 d-inline-flex align-items-center py-3">
+                  <small class="far fa-clock text-danger me-2"></small>
+                  <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+              </div>
+          </div>
+          <div class="col-lg-5 px-5 text-end">
+              <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                  <small class="fa fa-phone-alt text-danger me-2"></small>
+                  <small>+012 345 6789</small>
+              </div>
+              <div class="h-100 d-inline-flex align-items-center">
+                  <a class="btn btn-sm-square bg-white text-danger me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-sm-square bg-white text-danger me-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-sm-square bg-white text-danger me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-sm-square bg-white text-danger me-0" href=""><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- UpperNav End -->
+
+  <!-- NavBar Strat -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h2 class="m-0 text-danger"><i class="fa fa-car me-3"></i>CarMech</h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-evenly" id="navbarCollapse">
+        <div class="navbar-nav justify-content-evenly p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <!-- <a href="Pages/service/service.html" class="nav-item nav-link">Services -->
+            </a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+              <div class="dropdown-menu fade-up m-0">
+                  <a href="service-2.html" class="dropdown-item">Light-Vechicle</a>
+                  <a href="service-4.html" class="dropdown-item">Private-Vechicle</a>
+                  <a href="service-8.html" class="dropdown-item">Heavy-Vechicle</a>
+              </div>
+          </div>
+
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pickup</a>
+              <div class="dropdown-menu fade-up m-0">
+                  <a href="tow.html" class="dropdown-item">Towing</a>
+              </div>
+          </div>
+
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cars</a>
+            <div class="dropdown-menu fade-up m-0">
+              <a href="buycar.html" class="dropdown-item">Buy Cars</a>
+              <a href="sellcar.html" class="dropdown-item">Sell Cars</a>
+              <!-- <a href="spare.html" class="dropdown-item">Spear & Accessiries</a> -->
+              <a href="blog.html" class="dropdown-item">Blog & Nwes</a>
+            </div>
+        </div>
+
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Login</a>
+          <div class="dropdown-menu fade-up my-3" >
+              <div class="login">
+
+                  <h1 class="text-center">Login As A Member</h1>
+          
+                  <form class="needs-validation">
+                      <div class="form-group was-validated">
+                          <label class="form-label" for="email">Email address</label>
+                          <input class="form-control" type="email" id="email" required>
+                          <div class="invalid-feedback">
+                              Please enter your email address
+                          </div>
+                      </div>
+                      <div class="form-group was-validated">
+                          <label class="form-label" for="password">Password</label>
+                          <input class="form-control" type="password" id="password" required>
+                          <div class="invalid-feedback">
+                              Please enter your password
+                          </div>
+                      </div><br>
+                      <div class="form-group form-check">
+                          <input class="form-check-input" type="checkbox" id="check">
+                          <label class="form-check-label" for="check">Remember me</label>
+                      </div><br>
+                      <input class="btn btn-success w-100" type="submit" value="SIGN IN">
+                  </form>
+          
+              </div>
+          
+          </div>
+      </div>
+
+
+      <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Community</a>
+        <div class="dropdown-menu fade-up m-0">
+            <a href="community.html" class="dropdown-item">Community</a>
+        </div>
+    </div>
+
+      </div>
+       
+    </div>
+</nav>
+  <!-- NavBar End -->
+
+    <!-- Banner Strat -->
+    <div class="container-fluid p-0 mb-5">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="w-100" src="images/carousel-bg-3.jpg" alt="Image">
+                  <div class="carousel-caption d-flex align-items-center">
+                      <div class="container">
+                          <div class="row align-items-center justify-content-center justify-content-lg-start">
+                              <div class="col-10 col-lg-7 text-center text-lg-start">
+                                  <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Car Servicing //</h6>
+                                  <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">ANY TIME ANY WHERE</h1>
+                                  <a href="" class="btn btn-danger py-3 px-5 animated slideInDown">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img class="w-100" src="images/carousel-bg-6.jpg" alt="Image">
+                  <div class="carousel-caption d-flex align-items-center">
+                      <div class="container">
+                          <div class="row align-items-center justify-content-center justify-content-lg-start">
+                              <div class="col-10 col-lg-7 text-center text-lg-start">
+                                  <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Car Servicing //</h6>
+                                  <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">ANY TIME ANY WHERE</h1>
+                                  <a href="" class="btn btn-danger py-3 px-5 animated slideInDown">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                              </div>
+                             
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+<!-- Banner  End -->
+
+
+   <!-- Blog Strat -->
+   <section class="blog_area section-padding">
+    <div class="container my-5">
+        <div class="row justify-content-evenly">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div class="blog_left_sidebar">
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="images/dink&drive.jpg" alt="">
+                            <a href="#" class="blog_item_date">
+                                <!-- <h3>15</h3>
+                                <p>Jan</p> -->
+                            </a>
+                        </div><br>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="images/single_blog_2.png">
+                                <h2>Do Not Drink and Drive....</h2>
+                            </a>
+                            <p>As per the Motor Vehicle Act, driving by a drunken person or by a person under the influence of drugs is punishable for the first offense with imprisonment for a term of up to six months and/or with fine which may extend to two thousand rupees.</p>
+                            <ul class="blog-info-link">
+                                <li><a href="#"><i class="fa fa-user"></i> What punishments await motorists for drunk-driving accidents...</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="images/car-insurence.jpg" alt="">
+                            <a href="#" class="blog_item_date">
+                                <!-- <h3>15</h3>
+                                <p>Jan</p> -->
+                            </a>
+                        </div><br>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href=" ">
+                                <h2>Always Own Valid Car Insurance Policy....</h2>
+                            </a>
+                            <p>You can be penalized by the authorities if you drive a four-wheeler in the absence of a Third-party Car Insurance Policy. As per the updated Motor Vehicles Act 2019, the penalty for the first offence is Rs. 2,000 and for a second offence is Rs. 4,000.</p>
+                            <ul class="blog-info-link">
+                                <li><a href="#"><i class="fa fa-user"></i> Fine for Driving without Insurance</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="images/seat-belt.jpg">
+                            <a href="#" class="blog_item_date">
+                                <!-- <h3>15</h3>
+                                <p>Jan</p> -->
+                            </a>
+                        </div><br>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href=" ">
+                                <h2>Wear your seatbelt while Driving a Car. ...</h2>
+                            </a>
+                            <p>As per Newton's first law of motion, when a car abruptly stops or crashes, Due to inertia of motion, a person sitting in a moving car may be pushed forward when the car stops abruptly, potentially causing damage. To prevent the above accident, seat belt must be used while driving car.</p>
+                            <ul class="blog-info-link">
+                                <li><a href="#"><i class="fa fa-user"></i> Fine for not wearing a seat belt while driving</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="images/helmet.jpg" alt="">
+                            <a href="#" class="blog_item_date">
+                                <!-- <h3>15</h3>
+                                <p>Jan</p> -->
+                            </a>
+                        </div><br>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="single-blog.html">
+                                <h2>Riding a Two-Wheeler without a Helmet On....</h2>
+                            </a>
+                            <p>Section 129 of this principal Act mandates every individual aged above 4 years to “wear protective headgear” when riding a motorcycle in a public area. As already mentioned, these helmet laws for motorcycles include both the driver and pillion rider.</p>
+                            <ul class="blog-info-link">
+                                <li><a href="#"><i class="fa fa-user"></i>What are the helmet-related traffic laws in India?</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="images/speed.jpg" alt="">
+                            <a href="#" class="blog_item_date">
+                                <!-- <h3>15</h3>
+                                <p>Jan</p> -->
+                            </a>
+                        </div><br>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="single-blog.html">
+                                <h2>Over Speeding. ...</h2>
+                            </a>
+                            <p>Definition of overspeed (Entry 2 of 3) transitive verb. : to cause (as an engine) to run at an excessive speed. intransitive verb. : to run at an excessive speed.</p>
+                            <ul class="blog-info-link">
+                                <li><a href="#"><i class="fa fa-user"></i> Driving at excessive speed</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <nav class="blog-pagination justify-content-center d-flex">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a href="#" class="page-link" aria-label="Previous">
+                                    <i class="bi bi-arrow-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link">1</a>
+                            </li>
+                            <li class="page-item active">
+                                <a href="#" class="page-link">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link" aria-label="Next">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+
+                    <!-- <aside class="single_sidebar_widget search_widget">
+                        <form action="#">
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder='Search Keyword'
+                                        onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Search Keyword'">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="button"><i class="ti-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                type="submit">Search</button>
+                        </form>
+                    </aside> -->
+
+                    <aside class="single_sidebar_widget post_category_widget">
+                        <h4 class="widget_title">&nbsp;&nbsp;&nbsp;Category</h4><hr>
+                        <ul class="list cat-list">
+                            <li>
+                                <a href="#" class="d-flex">
+                                    <p>1. Do Not Drink and Drive</p>
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex">
+                                    <p>2. Always Own Valid Car Insurance Policy</p>
+                                  
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex">
+                                    <p>3. Wear your seatbelt while Driving a Car</p>
+                                  
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex">
+                                    <p>4. Riding a Two-Wheeler without a Helmet</p>
+                                 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex">
+                                    <p>5. Using a Mobile Phone while Riding</p>
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex">
+                                    <p>6. Over Speeding</p>
+                                   
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+
+                    <aside class="single_sidebar_widget popular_post_widget">
+                        <h3 class="widget_title">&nbsp;&nbsp;&nbsp;Recent News</h3><hr>
+                        <div class="media post_item">
+                            <!-- <img src="assets/img/post/post_1.png" alt="post"> -->
+                            <div class="media-body">
+                                <a href="https://www.financialexpress.com/auto/car-news/top-5-upcoming-cars-in-india-in-october-2022-byd-atto-3-to-mg-hector/2701648/">
+                                    <h3>&nbsp;&nbsp;&nbsp;Top 5 Upcoming Cars in India in October</h3>
+                                </a>
+                                <!-- <p>January 12, 2019</p> -->
+                            </div><br>
+                        </div>
+                        <div class="media post_item">
+                            <!-- <img src="assets/img/post/post_2.png" alt="post"> -->
+                            <div class="media-body">
+                                <a href="https://auto.economictimes.indiatimes.com/news/passenger-vehicle/top-10-pvs-in-h1-fy23-wagonr-takes-the-lead-nexon-emerges-as-best-selling-suv/9464259">
+                                    <h3>&nbsp;&nbsp;&nbsp;Nexon emerges as best-selling SUV</h3>
+                                </a>
+                                <!-- <p>02 Hours ago</p> -->
+                            </div><br>
+                        </div>
+                        <div class="media post_item">
+                            <!-- <img src="assets/img/post/post_3.png" alt="post"> -->
+                            <div class="media-body">
+                                <a href="https://www.indiacarnews.com/news/top-5-selling-suvs-in-september-2022-brezza-no-1-punch-no-4-54161/">
+                                    <h3>&nbsp;&nbsp;&nbsp;Top 5 Selling SUVs In September 2022</h3>
+                                </a>
+                                <!-- <p>03 Hours ago</p> -->
+                            </div><br>
+                        </div>
+                        <div class="media post_item">
+                            <!-- <img src="assets/img/post/post_4.png" alt="post"> -->
+                            <div class="media-body">
+                                <a href="https://www.financialexpress.com/auto/bike-news/top-5-upcoming-two-wheelers-in-october-2022-hero-vida-ev-to-multistrada-v4-pikes-peak/2702326/">
+                                    <h3>&nbsp;&nbsp;&nbsp;upcoming two-wheelers in October 2022</h3>
+                                </a>
+                                <!-- <p>01 Hours ago</p> -->
+                            </div><br>
+                        </div>
+                    </aside>
+
+                    <aside class="single_sidebar_widget tag_cloud_widget">
+                        <h4 class="widget_title">&nbsp;&nbsp;&nbsp;Tag Clouds</h4><hr>
+                        <ul class="list">
+                            <li>
+                                <a href="https://economictimes.indiatimes.com/news/international/us/kamala-harriss-motorcade-gets-involved-in-accident-agents-term-it-a-mechanical-failure/articleshow/94689221.cms">Mechanic</a>
+                            </li>
+                            <li>
+                                <a href="https://www.moneycontrol.com/stocks/marketinfo/marketcap/bse/auto-ancillaries-spare-parts-accessories.html">Spare</a>
+                            </li>
+                            <li>
+                                <a href="https://www.financialexpress.com/auto/car-news/september-2022-car-sales-record-an-all-time-high-in-india/2700405/">Gradge</a>
+                            </li>
+                            <li>
+                                <a href="https://finance.yahoo.com/news/india-car-rental-market-report-164600171.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAI14Zg_mXu8zKI0j5ISXuZ3ubAKRHbyU4ohhVrS_eIj63I7QAlH_wL6wuLr7y51VTuPfcWNQoglZ3p1ZxNkayrAiLRSrm6W73sxmK9oL6DJ9fwr3Lbf2qVQc7kIeJcO7JPA_OjMZlCP_ovkFuvaFoI9-cUqi0Q8ZoEQdb2y4H1Gc">Rental</a>
+                            </li>
+                            <li>
+                                <a href="https://indianautosblog.com/audi-q7-limited-edition-launched-only-50-units-available-p325258">Community</a>
+                            </li>
+                            <li>
+                                <a href="https://economictimes.indiatimes.com/news/india/super-luxury-cars-riding-high-with-indias-young-buyers/articleshow/93914993.cms?from=mdr">Luxery</a>
+                            </li>
+                            <li>
+                                <a href="https://www.zigwheels.com/newcars/best-mileage-cars">Millage</a>
+                            </li>
+                            <li>
+                                <a href="https://timesofindia.indiatimes.com/auto/policy-and-industry/indian-lubricant-industry-evolving-demands-and-expansion/articleshow/93231684.cms">Lubricant</a>
+                            </li>
+                        </ul>
+                    </aside>
+
+
+                    <!-- <aside class="single_sidebar_widget instagram_feeds">
+                        <h4 class="widget_title">Instagram Feeds</h4>
+                        <ul class="instagram_row flex-wrap">
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/post/post_5.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/post/post_6.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/post/post_7.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/post/post_8.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/post/post_9.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/post/post_10.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </aside> -->
+
+
+                    <!-- <aside class="single_sidebar_widget newsletter_widget">
+                        <h4 class="widget_title">Newsletter</h4>
+
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                            </div>
+                            <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                type="submit">Subscribe</button>
+                        </form>
+                    </aside> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog End -->
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Address</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Kolkata, W.B</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Opening Hours</h4>
+                <h6 class="text-light">Monday - Friday:</h6>
+                <p class="mb-4">09.00 AM - 09.00 PM</p>
+                <h6 class="text-light">Saturday - Sunday:</h6>
+                <p class="mb-0">09.00 AM - 12.00 PM</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Services</h4>
+                <a class="btn btn-link" href="">Diagnostic Test</a>
+                <a class="btn btn-link" href="">Engine Servicing</a>
+                <a class="btn btn-link" href="">Tires Replacement</a>
+                <a class="btn btn-link" href="">Oil Changing</a>
+                <a class="btn btn-link" href="">Vacuam Cleaning</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+      
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+  </body>
+</html>
+
+
+
+  
+
+
+
+
+  </body>
+</html>
